@@ -12,7 +12,7 @@ void separarEmPares(const char* hexString) {
         return;
     }
 
-    printf("Pares de dois dÃ­gitos:\n");
+    printf("Pares de dois digitos:\n");
     
     for (int i = 0; i < length; i += 2) {
      
@@ -30,7 +30,7 @@ int main() {
         hexString[strcspn(hexString, "\n")] = '\0';
         separarEmPares(hexString);
     } else {
-        printf("Erro ao ler a entrada.\n");
+        printf("Digite um valor valido.\n");
     }
 
     return 0;

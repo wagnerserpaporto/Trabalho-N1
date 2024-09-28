@@ -6,16 +6,16 @@
 
 
 
-char Separa_e_Converte(char mensagem_cifrada[], int b) {
-    int len = strlen(mensagem_cifrada);
+char Separa_e_Converte(char mensagem[], int b) {
+    int len = strlen(mensagem);
     char par[3];
     char *endptr;
     char encerrar[] = "00";
 
     int i, pos = 1; // pos = 1 para demais
     for (i = 0; i < len; i += 2) {
-        par[0] = mensagem_cifrada[i];
-        par[1] = mensagem_cifrada[i + 1];
+        par[0] = mensagem[i];
+        par[1] = mensagem[i + 1];
         par[2] = '\0';
         //pos ++;
 

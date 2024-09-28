@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-void imprimir_tabela_ascii_extendida(int inicio, int fim) {
-    printf("Tabela ASCII (%d a %d)\n", inicio, fim);
+void imprimir_tabela_ascii_extendida(int INICIO, int FIM) {
+    printf("Tabela ASCII (%d a %d)\n", INICIO, FIM);
     printf("Código | Caractere\n");
     printf("---------------------\n");
 
-    for (int i = inicio; i < fim; i++) {
+    for (int i = INICIO; i < FIM; i++) {
         printf("%3d    | ", i);
         if (i < 32 || i == 127) { // Caracteres de controle 
             printf(" "); // Ficou vazio porque não e nescessario no momento

@@ -11,5 +11,7 @@ Gabriel Alberto Duarte de Andrade
 Juliano Arthur da Silva Braga
 Natanael Ferreira Neves
 Thiago Antônio Vieira
-Wagner Serpa Porto
+Wagner Serpa Porto 
+
+O codigo se encontra no commit Versão Final -1
 

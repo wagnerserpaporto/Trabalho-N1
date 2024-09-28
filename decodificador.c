@@ -1,17 +1,35 @@
 #include <stdio.h>
+<<<<<<< HEAD
 #include <string.h>
 #include "funcaoondas.c"
+=======
+#include <stdlib.h>
+#include <math.h>
+#include <string.h>
+#include "funcaoondas.c"
+
+
+
+>>>>>>> 2dec91c7550c107526dad9e2f2be76f7fcab61c3
 void separa_e_converte(char MENSAGEM_CIFRADA[], int B) {
     int LEN = strlen(MENSAGEM_CIFRADA);
     char PAR[3];
     char *endptr;
     char ENCERRAR[] = "00";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2dec91c7550c107526dad9e2f2be76f7fcab61c3
     int I, POS = 1; // pos = 1 para demais
     for (I = 0; I < LEN; I += 2) {
         PAR[0] = MENSAGEM_CIFRADA[I];
         PAR[1] = MENSAGEM_CIFRADA[I + 1];
         PAR[2] = '\0';
         //pos ++;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2dec91c7550c107526dad9e2f2be76f7fcab61c3
         int CONVERTEH2D = strtol(PAR, &endptr, 16); //CONVERS?O DE HEXADECIMAL PARA DECIMAL
         if (strcmp(PAR, ENCERRAR) == 0) {
         	break;
@@ -22,9 +40,16 @@ void separa_e_converte(char MENSAGEM_CIFRADA[], int B) {
 			}
             
         }
+<<<<<<< HEAD
         POS++; 
     }
 }
+=======
+        POS++;
+    }
+}
+
+>>>>>>> 2dec91c7550c107526dad9e2f2be76f7fcab61c3
 /*int main() {
 	char texto_1[100] = "566F6388732073C66F2076656E6365646F867265732C20766F63C3887320636FBE6E73656775656D2E002DC6C921B7B87FCF"; // x = 1, b = 0
 	char texto_2[100] = "5465636E6F336C6f67696120646120496E666f726D6187C66F2E003333333333333333333333333333333333333333333333"; // x = 1, b = 3
@@ -37,4 +62,8 @@ void separa_e_converte(char MENSAGEM_CIFRADA[], int B) {
     //Separa_e_Converte(texto_4, 3);
     
     return 0;
+<<<<<<< HEAD
 }*/
+=======
+}*/
+>>>>>>> 2dec91c7550c107526dad9e2f2be76f7fcab61c3

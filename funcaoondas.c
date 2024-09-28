@@ -1,4 +1,10 @@
 #include <math.h>
+<<<<<<< HEAD
+=======
+#include <string.h>
+
+
+>>>>>>> 2dec91c7550c107526dad9e2f2be76f7fcab61c3
 int func_val(int X, int B) {
     double VALORES_AS[] = {186.752, -148.235, 34.5049, -3.5091, 0.183166, -0.00513554, 0.0000735464, -4.22038e-7};
     double RESULT = 0.0;
@@ -22,3 +28,4 @@ int func_val(int X, int B) {
 		
 	}
 }*/
+
